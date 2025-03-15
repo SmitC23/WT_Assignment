@@ -1,0 +1,48 @@
+<!--scanner-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner | PlantS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">Plant<span>S</span></div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="profile.html">
+            <img src="Image/farmer.png" alt="profile" class="profile-icon">
+            </a>
+        </nav>
+    </header>
+
+    <!-- Scanner Section -->
+    <main class="scanner-container">
+        <h2><span>Scanner</span></h2>
+        <div class="scanner-card">
+            <div class="scanner-left">
+                <label for="imageUpload" class="upload-label">
+                    <i class="fas fa-camera camera-icon"></i>
+                </label>
+                <input type="file" id="imageUpload" accept="image/*">
+                <button class="upload-btn">Upload</button>
+            </div>
+            <div class="scanner-right">
+                <p class="details-title">Details:</p>
+                <p class="details-content">[Scan results will be displayed here]</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
